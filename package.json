@@ -1,0 +1,26 @@
+{
+  "name": "microblog-solution",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "frontend": "cd frontend && npm start",
+    "backend": "cd backend && npm start",
+    "dev": "concurrently \"npm run backend\" \"npm run frontend\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mlghr/microblog.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mlghr/microblog/issues"
+  },
+  "homepage": "https://github.com/mlghr/microblog#readme",
+  "dependencies": {
+    "concurrently": "^5.3.0"
+  }
+}
