@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from './Footer';
 import TitleList from "./TitleList";
 
 function Home() {
@@ -8,6 +9,7 @@ function Home() {
         Welcome to <b>Microblog</b>, an innovative site for communicating ideas.
       </p>
       <TitleList />
+      <Footer />
     </main>
   );
 }
